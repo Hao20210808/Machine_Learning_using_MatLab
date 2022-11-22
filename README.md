@@ -5,4 +5,7 @@ Matlab is the second tool I learned for machine learning, and MatLab is also a p
 
 p.s. If there's some mistakes pls tell me.
 
-### 
+### Midtern
+Build the structure of the simple nueral network.
+### Final
+Implementation the hardware.
