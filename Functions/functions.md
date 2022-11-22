@@ -1,3 +1,22 @@
+## Sigmoid
+```
+function y = Sigmoid(x)
+    y = 1 ./ (1 + exp(-x));
+end
+```
+
+## Dropout
+```
+function ym = Dropout(y, ratio)
+    [m, n] = size(y);
+    ym = zeros(m, n);
+
+    num = round(m*n*(1 - ratio)); %number of survivors
+    idx = randperm(m*n, num);%Random permutation.
+    ym(idx) = 1 / (1-ratio);
+end
+```
+
 ## ReLU
 ```
 function y = ReLU(x)
