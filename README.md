@@ -12,3 +12,9 @@ Midterm Report: [Click to webpage](https://docs.google.com/presentation/d/1MeRIW
 
 ### Final
 Implementation the hardware.
+
+![](Report/figs/01.jpg)
+
+![](Report/figs/02.jpg)
+
+![](Report/figs/03.jpg)
